@@ -6,8 +6,7 @@
 }
 
 /* common  */
-body, a {
-    color: #2C2C2C;
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,18 +26,32 @@ a {
     padding: .5em 1em;
 }
 
+.text-small {
+    font-size: .875em;
+}
 
+/* font  */
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
 
 
 /* header */
 header {
     background-color: #fff;
-
+    position: fixed;
+    z-index: 2;
     width: 100%;
     padding: 1em;
 }
 header li {
     display: inline-block;
+}
+header a {
+    color: #2C2C2C;
+    font-size: 14px;
 }
 .nav-logo {
     vertical-align: bottom;
@@ -66,18 +79,28 @@ header > nav {
 .hero {
     width: 100%;
     background-color: #B4D0E7;
-    position: relative;
+    padding: 50px 0;
 }
 
 .hero-container {
     width: 80%;
     margin: auto;
+    position: relative;
+    top: 100px;
 }
 .hero-cta {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 .hero img {
     float: right;
-    width: 50%;
+    width: 65%;
+}
+.hero .btn {
+    margin: 1.25em 0 .5em;
+    display: inline-block;
+}
+.hero .arrow-down {
+    margin-top: 1.5em;
+    font-size: 2em;
 }
