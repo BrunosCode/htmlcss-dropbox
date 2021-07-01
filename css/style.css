@@ -8,6 +8,7 @@
 /* common  */
 body, a {
     color: #2C2C2C;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after {
