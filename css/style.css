@@ -39,6 +39,11 @@ a {
     display: inline-block;
     text-decoration: none;
 }
+.btn.btn-empty {
+    background-color: unset;
+    color: #000;
+    border: solid 1px #000;
+}
 
 .blue {
     color: #0061FF;
@@ -59,7 +64,7 @@ h2 {
     margin-bottom: 40px;
 }
 h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -210,7 +215,7 @@ label {
     margin-bottom: 1em;
 }
 
-/* rom content  */
+/* row content  */
 .row .btn {
     width: 30%;
     float: right;
@@ -221,4 +226,19 @@ label {
 }
 .row h5 {
     margin-bottom: 2em;
+}
+
+/* meet a partner section, slit in 2 */
+.split-section {
+    margin-top: 100px;
+}
+.split-section > * {
+    float: left;
+    width: 50%;
+}
+.split-section div {
+    padding: 2em 0 2em 2em;
+}
+.split-section * {
+    margin-bottom: 1.5em;
 }
