@@ -9,8 +9,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-li {
-    list-style: none;
+a {
+    color: #0061FF;
 }
 
 .clearfix::after {
@@ -38,6 +38,13 @@ li {
     padding: .5em 1em;
     display: inline-block;
     text-decoration: none;
+}
+
+.blue {
+    color: #0061FF;
+}
+.gray {
+    color: gray;
 }
 
 /* font  */
@@ -161,8 +168,12 @@ label {
     margin-right: 0;
 }
 
-/* column content  */
-.col-head {
+.row {
+    width: 100%;
+    border: solid 1px #EBEBEC;
+}
+
+.plan-head {
     width: 100%;
     border-bottom: solid 1px #DADADC;
     text-align: center;
@@ -170,10 +181,12 @@ label {
     margin-bottom: 1.5em;
 }
 
-.col-container {
+.plan-container {
     padding: 0 1.25em;
     margin-bottom: 1.5em;
 }
+
+/* column content  */
 .price {
     font-weight: 700;
     margin: .5em 0;
@@ -191,8 +204,21 @@ label {
     margin-bottom: 1em;
 }
 .columns ul {
-    margin: 1.5em 0;
+    margin: 1.5em 0 1.5em 1.5em;
 }
 .columns li {
     margin-bottom: 1em;
+}
+
+/* rom content  */
+.row .btn {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.row h4 {
+    margin-bottom: 1em;
+}
+.row h5 {
+    margin-bottom: 2em;
 }
