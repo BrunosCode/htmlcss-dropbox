@@ -31,6 +31,15 @@ a {
     border-bottom: solid 1px #EBEBEC;
 }
 
+.col {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+.col:last-child,
+.col:nth-child(3) {
+    margin-right: 0;
+}
 
 .btn {
     background-color: #0061FF;
@@ -162,15 +171,9 @@ label {
     width: 100%;
     margin: 1.5em 0 2em;
 }
-.col {
-    float: left;
+.plans.col {
     height: 625px;
-    width: 30%;
-    margin-right: 5%;
     border: solid 1px #EBEBEC;
-}
-.col:last-child {
-    margin-right: 0;
 }
 
 .row {
@@ -231,6 +234,7 @@ label {
 /* meet a partner section, slit in 2 */
 .split-section {
     margin-top: 100px;
+    margin-bottom: 70px;
 }
 .split-section > * {
     float: left;
@@ -241,4 +245,15 @@ label {
 }
 .split-section * {
     margin-bottom: 1.5em;
+}
+
+/* operation section  */
+.grid .col {
+    margin-bottom: 70px;
+}
+.col img {
+    width: 100%;
+}
+.grid h4 {
+    margin-bottom: 1em;
 }
