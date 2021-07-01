@@ -16,10 +16,12 @@ body {
     clear: both;
 }
 
-
-a {
-    text-decoration: none;
+.container {
+    width: 70%;
+    margin: auto;
 }
+
+
 .btn {
     background-color: #0061FF;
     color: #fff;
@@ -33,6 +35,11 @@ a {
 /* font  */
 h1 {
     font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 24px;
     font-weight: 900;
     margin-bottom: 40px;
 }
@@ -52,6 +59,7 @@ header li {
 header a {
     color: #2C2C2C;
     font-size: 14px;
+    text-decoration: none;
 }
 .nav-logo {
     vertical-align: bottom;
@@ -80,8 +88,8 @@ header > nav {
     width: 100%;
     background-color: #B4D0E7;
     padding: 50px 0;
+    margin-bottom: 120px;
 }
-
 .hero-container {
     width: 80%;
     margin: auto;
@@ -103,4 +111,29 @@ header > nav {
 .hero .arrow-down {
     margin-top: 1.5em;
     font-size: 2em;
+}
+
+/* plan section: radio botton */
+form * {
+    display: inline-block;
+    font-size: .75em;
+}
+label {
+    margin-right: 1em;
+}
+
+/* plan section: columns */
+.columns {
+    width: 100%;
+    margin-top: 1.5em 0 2em;
+}
+.col {
+    float: left;
+    height: 625px;
+    width: 30%;
+    margin-right: 5%;
+    border: solid 1px #DADADC;
+}
+.col:last-child {
+    margin-right: 0;
 }
