@@ -257,3 +257,44 @@ label {
 .grid h4 {
     margin-bottom: 1em;
 }
+
+/* mosaic section  */
+.half-width {
+    width: 50%;
+}
+.mosaic {
+    width: 100%;
+}
+.square-left, 
+.square-right {
+    width: 15vw;
+    height: 15vw;
+    background-color: teal;
+    border: yellow solid 1px;
+}
+.square-left {
+    float: left;
+}
+.square-right {
+    float: right;
+}
+
+.big-square {
+    background-color: thistle;
+    float: left;
+    width: 40vw;
+    height: 30vw;
+}
+
+.squares-container {
+    width: 30vw;
+    height: 30vw;
+    float: left
+}
+.square {
+    width: 50%;
+    height: 50%;
+    background-color: teal;
+    border: yellow solid 1px;
+    float: left;
+}
