@@ -60,3 +60,23 @@ header > nav {
 .nav-right li {
     margin-left: 1.5em;
 }
+
+/* hero section  */
+.hero {
+    width: 100%;
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.hero-container {
+    width: 80%;
+    margin: auto;
+}
+.hero-cta {
+    float: left;
+    width: 40%;
+}
+.hero img {
+    float: right;
+    width: 50%;
+}
