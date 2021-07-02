@@ -178,11 +178,12 @@ label {
     width: 100%;
     margin: 1.5em 0 2em;
 }
-.plans.col {
-    height: 625px;
+.plan {
     border: solid 1px #EBEBEC;
 }
-
+.plan.col {
+    height: 625px;
+}
 .row {
     width: 100%;
     border: solid 1px #EBEBEC;
