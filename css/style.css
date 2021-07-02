@@ -361,3 +361,29 @@ label {
     float: right;
     width: 30%;
 }
+
+/* FAQ section  */
+.faq {
+    margin: 4em auto;
+}
+.faq ul {
+    margin: 2em 0;
+    border-top: solid 1px #EBEBEC;
+    list-style: none;
+}
+.faq li {
+    padding: 1em 0;
+    border-bottom: solid 1px #EBEBEC;;
+}
+.faq-text {
+    margin-top: 1em;
+    display: none;
+}
+.faq h4 {
+    display: inline-block;
+    width: 95%;
+    font-size: 10px;
+}
+.faq i {
+    font-size: 12px;
+}
