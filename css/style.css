@@ -182,7 +182,7 @@ label {
     border: solid 1px #EBEBEC;
 }
 .plan.col {
-    height: 625px;
+    height: calc(600px + (1900px - 100vw)/4);
 }
 .row {
     width: 100%;
