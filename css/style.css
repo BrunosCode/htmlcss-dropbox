@@ -296,7 +296,7 @@ label {
 .squares-container {
     width: 30vw;
     height: 30vw;
-    float: left
+    float: left;
 }
 .square {
     width: 50%;
