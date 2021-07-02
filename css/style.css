@@ -282,7 +282,7 @@ label {
 .big-square {
     background-color: #F5F5F5;
     float: left;
-    width: calc(100% - 60vw);
+    width: 650px;
     height: 30vw;
     padding: 2em;
 }
