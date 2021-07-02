@@ -29,6 +29,7 @@ a {
     display: inline-block;
     width: 20%;
     border-bottom: solid 1px #EBEBEC;
+    text-align: left;
 }
 
 .col {
@@ -262,28 +263,28 @@ label {
 .half-width {
     width: 50%;
 }
+.half-width:first-child {
+    margin-top: 50px;
+}
+.half-width:last-child {
+    margin-bottom: 50px;
+}
 .mosaic {
     width: 100%;
 }
-.square-left, 
-.square-right {
-    width: 15vw;
-    height: 15vw;
-    background-color: teal;
-    border: yellow solid 1px;
-}
-.square-left {
-    float: left;
-}
-.square-right {
-    float: right;
-}
 
 .big-square {
-    background-color: thistle;
+    background-color: #F5F5F5;
     float: left;
     width: 40vw;
     height: 30vw;
+    padding: 2em;
+}
+.big-square p {
+    margin-top: 2em;
+}
+.big-square img {
+    width: 30%;
 }
 
 .squares-container {
@@ -294,7 +295,45 @@ label {
 .square {
     width: 50%;
     height: 50%;
-    background-color: teal;
-    border: yellow solid 1px;
     float: left;
+    color: #fff;
+}
+.square img {
+    display: block;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* mosaic colors */
+.designit {
+    background-color: #A2D39B;
+    border: solid 1vw #D0E9CD;
+}
+.designit img {
+    /* from black logo to white  */
+    filter: invert(1);
+}
+.arizona {
+    background-color: #61082B;
+}
+.florida {
+    background-color: #0093CE;
+}
+.topps {
+    background-color: #FF1C1C;
+}
+.world-bicycle {
+    background-color: #D5001F;
+}
+.hearst-corp {
+    background-color: #B4D0E7;
+}
+.clean-channel {
+    background-color: #FFD830;
+}
+.lonely-planet {
+    background-color: #0D2481;
 }
