@@ -182,7 +182,8 @@ label {
     border: solid 1px #EBEBEC;
 }
 .plan.col {
-    height: calc(600px + (1900px - 100vw)/4);
+    height: 700px;
+    overflow: scroll;
 }
 .row {
     width: 100%;
@@ -282,7 +283,7 @@ label {
 .big-square {
     background-color: #F5F5F5;
     float: left;
-    width: 650px;
+    width: calc(100% - 60vw);
     height: 30vw;
     padding: 2em;
 }
