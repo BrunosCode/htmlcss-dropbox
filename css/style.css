@@ -154,9 +154,29 @@ form * {
     display: inline-block;
     font-size: .75em;
 }
-label {
-    margin-right: 1em;
+input {
+    display: none;
 }
+
+label {
+    cursor: pointer;
+    margin-right: .5em;
+    font-size: 14px;
+}
+label::before {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-right: .3em;
+    border-radius: 50%;
+    vertical-align: text-bottom;
+    border: 1px solid #EBEBEC;
+}
+input:checked + label::before {
+    border: 3px solid #0061FF;
+}
+
 
 /* plan section: row */
 .row {
@@ -219,6 +239,7 @@ label {
 
 .col ul {
     margin: 1.5em;
+    list-style: none;
 }
 .col li {
     margin-bottom: 1em;
