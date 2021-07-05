@@ -1,10 +1,10 @@
 const getId = element => document.getElementById(element);
 const getClass = element => document.getElementsByClassName(element);
 
-//Changing the type of payment
+//Changing the type of payment and the price
 const annualyInput = getId("annualy");
 const mounthlyInput = getId("mounthly");
-const prices = getClass("price")
+const prices = getClass("price");
 
 mounthlyInput.addEventListener('change', () => {
     for (let i = 0; i < prices.length; i++) {
