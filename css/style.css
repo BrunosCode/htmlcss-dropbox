@@ -30,6 +30,7 @@ a {
     width: 20%;
     border-bottom: solid 1px #EBEBEC;
     text-align: left;
+    margin: 1em 0;
 }
 
 .col {
@@ -37,8 +38,8 @@ a {
     width: 30%;
     margin-right: 5%;
 }
-.col:last-child,
-.col:nth-child(3) {
+
+.col:nth-child(3n) {
     margin-right: 0;
 }
 
@@ -50,22 +51,19 @@ a {
     text-decoration: none;
     text-align: center;
 }
-.btn.btn-empty {
+.btn.empty {
     background-color: unset;
     color: #000;
     border: solid 1px #000;
 }
-.btn.btn-white {
+.btn.white {
     background-color: #fff;
     color: #000;
     border: none;
 }
-
-.blue {
-    color: #0061FF;
-}
-.gray {
-    color: gray;
+.btn.float-right {
+    float: right;
+    width: 30%;
 }
 
 /* font  */
@@ -82,19 +80,6 @@ h2 {
 h4 {
     font-size: 18px;
     font-weight: 700;
-}
-
-.text-8 {
-    font-size: 8px;
-}
-.text-10 {
-    font-size: 10px;
-}
-.text-12 {
-    font-size: 12px;
-}
-.text-14 {
-    font-size: 14px;
 }
 
 /* header */
@@ -173,70 +158,79 @@ label {
     margin-right: 1em;
 }
 
-/* plan section: columns */
-.columns {
+/* plan section: rows */
+.row {
     width: 100%;
-    margin: 1.5em 0 2em;
+    margin: 1.5em 0;
 }
+.row h4 {
+    margin-bottom: .75em;
+}
+.row h5 {
+    margin-bottom: 1.5em;
+}
+.row p:last-child {
+    margin-bottom: 1.5em;
+    font-size: 12px;
+}
+
 .plan {
     border: solid 1px #EBEBEC;
 }
+.plan > * {
+    padding: 0 1.25em;
+}
 .plan.col {
-    min-height: 650px;
+    min-height: 700px;
 }
-.row {
-    width: 100%;
-    border: solid 1px #EBEBEC;
-}
-
 .plan-head {
     width: 100%;
     border-bottom: solid 1px #DADADC;
     text-align: center;
     padding: .5em 0;
     margin-bottom: 1.5em;
-}
-
-.plan-container {
-    padding: 0 1.25em;
-    margin-bottom: 1.5em;
+    font-size: 12px;
 }
 
 /* column content  */
 .price {
     font-weight: 700;
+    font-size: 14px;
     margin: .5em 0;
 }
-.price-info {
-    font-size: .5em;
-    color: #6B7A87;
+.price + p {
+    font-size: 12px;
+    color: gray;
 }
-.icon-list {
-    margin: 1.25em 0;
+
+
+.plan .btn {
+    font-size: 12px;
 }
-.columns .btn {
+.col .btn {
     width: 100%;
     text-align: center;
     margin-bottom: 1em;
 }
-.columns ul {
-    margin: 1.5em 0 1.5em 1.5em;
-}
-.columns li {
-    margin-bottom: 1em;
+.col .btn + p {
+    font-size: 12px;
+    margin-bottom: .5em;
 }
 
-/* row content  */
-.row .btn {
-    width: 30%;
-    float: right;
+.col ul {
+    margin: 1.5em;
 }
-.row h4 {
+.col li {
     margin-bottom: 1em;
+    font-size: 12px;
 }
-.row h5 {
-    margin-bottom: 2em;
+.col li i {
+    font-size: 14px;
 }
+.col .fa-check {
+    color: #0061FF;
+}
+
 
 /* meet a partner section, slit in 2 */
 .split-section {
@@ -288,6 +282,7 @@ label {
 }
 .big-square p {
     margin-top: 3em;
+    font-size: 12px;
 }
 .big-square img {
     width: 30%;
@@ -359,8 +354,7 @@ label {
     float: left;
 }
 .cta-band .btn {
-    float: right;
-    width: 30%;
+    font-size: 12px;
 }
 
 /* FAQ section  */
