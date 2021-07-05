@@ -160,20 +160,18 @@ input {
 
 label {
     cursor: pointer;
-    margin-right: .5em;
+    margin-right: 1em;
     font-size: 14px;
 }
-label::before {
-    content: "";
-    display: inline-block;
-    height: 12px;
-    width: 12px;
+label span {
+    height: 14px;
+    width: 14px;
     margin-right: .3em;
     border-radius: 50%;
-    vertical-align: text-bottom;
+    vertical-align: middle;
     border: 1px solid #EBEBEC;
 }
-input:checked + label::before {
+input:checked + span {
     border: 3px solid #0061FF;
 }
 
@@ -410,7 +408,9 @@ input:checked + label::before {
     margin-top: 1em;
     display: none;
 }
-
+.faq-text.show {
+    display: unset;
+}
 
 /* footer  */
 footer {

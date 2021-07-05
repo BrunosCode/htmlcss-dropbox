@@ -59,10 +59,10 @@
 
             <!-- radio button for choosing the payment plan -->
             <form action="">
-                <input type="radio" name="payment" id="monthly">
-                <label for="monthly">Fatturazione mensile</label>
-                <input type="radio" name="payment" id="annualy">
-                <label for="annualy">Fatturazione annuale</label>
+                <label><input type="radio" name="payment" id="mounthly"><span></span>
+                Fatturazione mensile</label>
+                <label><input type="radio" name="payment" id="annualy"><span></span>
+                Fatturazione annuale</label>
             </form>
             <!-- /radio button for choosing the payment plan -->
 
@@ -74,7 +74,7 @@
                     
                     <div class="separetor">
                         <h4>Professional</h4>
-                        <p class="price">19,99€</p>
+                        <p id="price1" class="price">19,99€</p>
                         <p>/mese</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li far fa-user"></i> 1 utente</li>
@@ -102,7 +102,7 @@
                     
                     <div class=" separetor">
                         <h4>Standard</h4>
-                        <p class="price">19,99€</p>
+                        <p id="price2" class="price">19,99€</p>
                         <p>/utente /mese, a partire da 3 utenti</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fas fa-user-plus"></i> 1 utente</li>
@@ -131,7 +131,7 @@
                     
                     <div class="separetor">
                         <h4>Advanced</h4>
-                        <p class="price">19,99€</p>
+                        <p id="price3" class="price">19,99€</p>
                         <p>/mese</p>
                         <ul class="fa-ul">
                             <li><i class="fa-li fas fa-user-plus"></i> 1 utente</li>
@@ -353,5 +353,7 @@
         </div>
         <!-- /last part of the footer  -->
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
